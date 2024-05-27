@@ -24,3 +24,40 @@ body {
     text-decoration: none;
     color: #13731D;
 }
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 90px 0;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+.main-tittle {
+    font-size: 44px;
+    line-height: 44px;
+    color: #020202;
+    margin-top: 40px;
+
+}
+
+.main-description {
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 30px;
+}
+
+.main-button {
+    background-color: #198524;
+    text-decoration: none;
+    color: #FFFF;
+    padding: 13px 32px;
+    border-radius: 13px;
+    margin-top: 30px;
+}
