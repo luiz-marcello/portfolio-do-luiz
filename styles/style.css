@@ -161,3 +161,14 @@ section {
     font-weight: 700;
 }
 
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacts-links {
+    display: flex;
+    gap: 30px;
+    margin-top: 35px;
+}
