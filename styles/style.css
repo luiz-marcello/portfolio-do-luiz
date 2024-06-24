@@ -172,3 +172,11 @@ section {
     gap: 30px;
     margin-top: 35px;
 }
+
+footer {
+    padding: 34px 0px;
+}
+
+.footer-description {
+    text-align: center;
+}
