@@ -65,6 +65,7 @@ body {
 .sections {
     background-color: #000000;
     color: #FFFFFF;
+    padding: 0 16px;
 }
 
 section {
@@ -102,10 +103,17 @@ section {
 }
 
 .project {
-    display: flex;
     gap: 28px;
     padding: 60px 0px;
-    align-items: certer;
+    align-items: center;
+}
+
+.project-display {
+    display: flex;
+}
+
+.project-display-reverse {
+    display: flex;
 }
 
 .project-image-container {
@@ -115,7 +123,7 @@ section {
 .project-image {
     max-width: 100%;
     border-radius: 30px;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(112, 100, 100, 0.945);
+    box-shadow: 0 4px 8px 0 rgba(22, 20, 20, 0.753), 0 6px 20px 0 rgba(31, 26, 26, 0.945);
 }
 
 .project-details-container {
@@ -159,6 +167,7 @@ section {
     border-radius: 10px;
     padding: 10px 38px;
     font-weight: 700;
+    text-align: center;
 }
 
 .contacts-container {
@@ -179,4 +188,51 @@ footer {
 
 .footer-description {
     text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .project-display {
+        flex-direction: column;
+    }
+
+    .project-display-reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-links {
+        justify-content: center;
+    }
+
+    .main-section {
+        padding: 50px 16px;
+    }
+
+    .main-tittle {
+        font-size: 34px;
+        line-height: 40px;
+    }
+
+    .main-description {
+        font-size: 16px;
+    }
+
+    .about-description-box {
+        padding: 16px 20px;
+    }
+
+    .about-description {
+        font-size: 16px;
+    }
+
+    .project-title {
+        font-size: 32px;
+    }
+
+    .project-button {
+        flex: 1;
+        padding: 10px 20px;
+        text-align: center;
+    }
 }
