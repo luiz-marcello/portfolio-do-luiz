@@ -25,6 +25,23 @@ body {
     color: #13731D;
 }
 
+.link-main:hover{
+    color: #10a71f;
+}
+
+.link-about:hover{
+    color: #10a71f;
+}
+
+.link-projects:hover{
+    color: #10a71f;
+}
+
+.link-contacts:hover{
+    color: #10a71f;
+}
+
+
 .main-section {
     display: flex;
     flex-direction: column;
@@ -62,6 +79,11 @@ body {
     margin-top: 30px;
 }
 
+.main-button:hover {
+    background: #198524E5;    
+}
+
+
 .sections {
     background-color: #000000;
     color: #FFFFFF;
@@ -88,6 +110,10 @@ section {
     border: 1px solid #05B62C;
     padding: 50px 60px;
     margin-top: 45px;
+}
+
+.about-description-box:hover {
+    border: 2px solid rgb(45, 255, 3);
 }
 
 .about-description {
@@ -170,6 +196,10 @@ section {
     text-align: center;
 }
 
+.project-button:hover {
+    background: #272727;
+}
+
 .contacts-container {
     display: flex;
     flex-direction: column;
@@ -180,6 +210,22 @@ section {
     display: flex;
     gap: 30px;
     margin-top: 35px;
+}
+
+.link-whatsapp:hover {
+    display: flex;
+}
+
+.link-instagram:hover {
+    display: flex;
+}
+
+.link-facebook:hover {
+    display: flex;
+}
+
+.link-github:hover {
+    display: flex;
 }
 
 footer {
